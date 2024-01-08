@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title='Cats')
+st.set_page_config(page_title='Flowers')
 st.header("Types of Flowers")
 col1,col2,col3=st.columns(3)
 with col1:
