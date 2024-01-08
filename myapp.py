@@ -1,12 +1,12 @@
 import streamlit as st
 st.set_page_config(page_title='Flowers')
-st.header("Types of Flowers" style="text-align:center")
+st.header("Types of Flowers")
 col1,col2,col3=st.columns(3)
 with col1:
   st.subheader("Lotus:")
   st.image("./image1.jpg",caption="Flower1", width="300",use_column_width=True)
+  st.subheader("", style="text-align:center;")
   st.write("Flowers  are  Beautiful:")
-  st.markdown("-----")
 with col2:
   st.subheader("Sunflower:")
   st.image("./image2.jpg",caption="Flower2", width="300",use_column_width=True)
