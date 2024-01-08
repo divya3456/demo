@@ -6,6 +6,7 @@ with col1:
   st.subheader("Lotus:")
   st.image("./image1.jpg",caption="Flower1", width="300",use_column_width=True)
   st.write("Flowers  are  Beautiful:")
+  st.markdown("-----")
 with col2:
   st.subheader("Sunflower:")
   st.image("./image2.jpg",caption="Flower2", width="300",use_column_width=True)
