@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title='Flowers')
-st.header("Types of Flowers")
+st.header("Types of Flowers" style="text-align:center")
 col1,col2,col3=st.columns(3)
 with col1:
   st.subheader("Lotus:")
